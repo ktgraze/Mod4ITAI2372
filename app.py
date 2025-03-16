@@ -33,9 +33,9 @@ if st.button("Check Fraud"):
 """
 
 # Write the app code to a Python file (app.py)
-with open("/content/app.py", "w") as f:
+with open("app.py", "w") as f:
     f.write(app_code)
 
 # Provide a download link for the app.py
 from google.colab import files
-files.download("/content/app.py")
+files.download("app.py")
